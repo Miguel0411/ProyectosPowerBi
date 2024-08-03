@@ -1,0 +1,3282 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"proyecto1\",\"Catalogo_sucursal\",\"Medidas\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.901.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "catalogo_sucursal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Catalogo_sucursal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "catalogo sucursal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Catalogo_sucursal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "catalogo_sucursal.id_sucursal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Catalogo_sucursal",
+                    "ConceptualProperty": "id_sucursal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id sucursal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_sucursal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "catalogo_sucursal.suc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Catalogo_sucursal",
+                    "ConceptualProperty": "suc"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "suc": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.porc_adeudo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Porc_Adeudo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "porc adeudo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Porc_Adeudo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "proyecto 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "proyecto1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_adeudo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "B_adeudo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "B adeudo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B_adeudo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "B_mes"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "B me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "B_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "B_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B me año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "B_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B me día": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "B_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B me me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "B_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B me trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.adeudo_actual": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "adeudo_actual"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "adeudo actual": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "adeudo_actual": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "adeudo real": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "adeudo existent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "adeudo tangible": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "fec_ini_cdto"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fec ini cdto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec_ini_cdto": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fec_ini_cdto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fec_ini_cdto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec ini cdto año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fec_ini_cdto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec ini cdto día": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fec_ini_cdto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec ini cdto me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fec_ini_cdto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec ini cdto trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.id_sucursal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "id_sucursal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id sucursal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_sucursal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential sucursal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "proyecto_1.j_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "J1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "j 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "J1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.j_1.B_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "J1",
+                    "HierarchyLevel": "B_mes"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "B me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "B_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.j_1.fec_ini_cdto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "Hierarchy": "J1",
+                    "HierarchyLevel": "fec_ini_cdto"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fec ini cdto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fec_ini_cdto": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.no_cdto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "no_cdtos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "no cdto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "no_cdtos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "number cdto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.no_cliente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "no_clientes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "no cliente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "no_clientes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "number cliente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.pagos_tot": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "pagos_tot"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pagos tot": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pago tot": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "pagos_tot": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "pago dram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "pago snifter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "pago thimbleful": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "pago finger": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "pago child": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "pago toddler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "pago baby": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "pago kid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.porc_clientes_adeudo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Porc_Clientes_Adeudo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "porc clientes adeudo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Porc_Clientes_Adeudo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "%Clientes Adeudo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "proyecto_1.ventas_tot": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proyecto1",
+                    "ConceptualProperty": "ventas_tot"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ventas tot": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "venta tot": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "ventas_tot": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "venta dram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "venta snifter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "venta thimbleful": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "venta finger": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "venta child": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "venta toddler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "venta baby": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "venta kid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "catalogo_sucursal_has_id_sucursal": {
+                "Binding": {
+                  "ConceptualEntity": "Catalogo_sucursal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "catalogo_sucursal.id_sucursal"
+                      },
+                      "Subject": {
+                        "Role": "catalogo_sucursal"
+                      }
+                    },
+                    "ID": "catalogo_sucursals_have_id_sucursals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "catalogo_sucursal": {
+                    "Target": {
+                      "Entity": "catalogo_sucursal"
+                    }
+                  },
+                  "catalogo_sucursal.id_sucursal": {
+                    "Target": {
+                      "Entity": "catalogo_sucursal.id_sucursal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "catalogo_sucursal_has_suc": {
+                "Binding": {
+                  "ConceptualEntity": "Catalogo_sucursal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "catalogo_sucursal.suc"
+                      },
+                      "Subject": {
+                        "Role": "catalogo_sucursal"
+                      }
+                    },
+                    "ID": "catalogo_sucursals_have_sucs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "catalogo_sucursal": {
+                    "Target": {
+                      "Entity": "catalogo_sucursal"
+                    }
+                  },
+                  "catalogo_sucursal.suc": {
+                    "Target": {
+                      "Entity": "catalogo_sucursal.suc"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me"
+                      }
+                    },
+                    "ID": "B_me_have_jerarquía_de_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_año_has_proyecto_1_B_me_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "ID": "años_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_años1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_años",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_años1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_días1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_me1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_me_has_proyecto_1_B_me_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_días1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "ID": "días_have_me1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "días_are_in_me",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_B_me_variación_jerarquía_de_fecha_trimestre_has_proyecto_1_B_me_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_me1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "me_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto"
+                      }
+                    },
+                    "ID": "fec_ini_cdtos_have_jerarquía_de_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_año_has_proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "ID": "años_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_años1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_me_has_proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "ID": "días_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "días_are_in_me1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_trimestre_has_proyecto_1_fec_ini_cdto_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "me_are_in_trimestres1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_B_adeudo": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_adeudo"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_B_adeudos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.B_adeudo": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_adeudo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_B_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.B_me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_B_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.B_me": {
+                    "Target": {
+                      "Entity": "proyecto_1.B_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_adeudo_actual": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.adeudo_actual"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_adeudo_actuals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.adeudo_actual": {
+                    "Target": {
+                      "Entity": "proyecto_1.adeudo_actual"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_catalogo_sucursal": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "catalogo_sucursal"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_catalogo_sucursals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1"
+                      },
+                      "Subject": {
+                        "Role": "catalogo_sucursal"
+                      }
+                    },
+                    "ID": "catalogo_sucursals_have_proyecto_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "catalogo_sucursal": {
+                    "Target": {
+                      "Entity": "catalogo_sucursal"
+                    }
+                  },
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_fec_ini_cdto": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.fec_ini_cdto"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_fec_ini_cdtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.fec_ini_cdto": {
+                    "Target": {
+                      "Entity": "proyecto_1.fec_ini_cdto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_j_1": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.j_1"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_j_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.j_1": {
+                    "Target": {
+                      "Entity": "proyecto_1.j_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_medida_porc_adeudo": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.porc_adeudo"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_porc_adeudo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.porc_adeudo": {
+                    "Target": {
+                      "Entity": "medida.porc_adeudo"
+                    }
+                  },
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_no_cdto": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.no_cdto"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_no_cdtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.no_cdto": {
+                    "Target": {
+                      "Entity": "proyecto_1.no_cdto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_no_cliente": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.no_cliente"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_no_clientes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.no_cliente": {
+                    "Target": {
+                      "Entity": "proyecto_1.no_cliente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_pagos_tot": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.pagos_tot"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_pagos_tots",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.pagos_tot": {
+                    "Target": {
+                      "Entity": "proyecto_1.pagos_tot"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_porc_clientes_adeudo": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.porc_clientes_adeudo"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_porc_clientes_adeudo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.porc_clientes_adeudo": {
+                    "Target": {
+                      "Entity": "proyecto_1.porc_clientes_adeudo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_has_ventas_tot": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.ventas_tot"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1"
+                      }
+                    },
+                    "ID": "proyecto_1_have_ventas_tots",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1": {
+                    "Target": {
+                      "Entity": "proyecto_1"
+                    }
+                  },
+                  "proyecto_1.ventas_tot": {
+                    "Target": {
+                      "Entity": "proyecto_1.ventas_tot"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_j_1_has_B_me": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.j_1.B_me"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.j_1"
+                      }
+                    },
+                    "ID": "j_1_have_B_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.j_1": {
+                    "Target": {
+                      "Entity": "proyecto_1.j_1"
+                    }
+                  },
+                  "proyecto_1.j_1.B_me": {
+                    "Target": {
+                      "Entity": "proyecto_1.j_1.B_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proyecto_1_j_1_has_fec_ini_cdto": {
+                "Binding": {
+                  "ConceptualEntity": "proyecto1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proyecto_1.j_1.fec_ini_cdto"
+                      },
+                      "Subject": {
+                        "Role": "proyecto_1.j_1"
+                      }
+                    },
+                    "ID": "j_1_have_fec_ini_cdtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proyecto_1.j_1": {
+                    "Target": {
+                      "Entity": "proyecto_1.j_1"
+                    }
+                  },
+                  "proyecto_1.j_1.fec_ini_cdto": {
+                    "Target": {
+                      "Entity": "proyecto_1.j_1.fec_ini_cdto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "e5f81574-32e8-41bd-ba41-98480be4255c",
+        "fromColumn": "B_mes",
+        "fromTable": "proyecto1",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_d60d67e3-b676-47e6-9e1f-bf78e38a6fc9"
+      },
+      {
+        "name": "46b88fa0-b5d8-4fdc-b7ef-6338901a666a",
+        "fromColumn": "fec_ini_cdto",
+        "fromTable": "proyecto1",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_4ef28cee-caf4-498c-8a24-ae942a7f2f9a"
+      },
+      {
+        "name": "3db9f9b6-ef7b-12f7-a0e4-72afff8de6c9",
+        "fromColumn": "id_sucursal",
+        "fromTable": "proyecto1",
+        "toColumn": "id_sucursal",
+        "toTable": "Catalogo_sucursal"
+      }
+    ],
+    "sourceQueryCulture": "es-PE",
+    "tables": [
+      {
+        "name": "proyecto1",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "B_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "mmmm \"de\" yyyy",
+            "lineageTag": "c6c18439-8a93-48ae-ac8b-efcadf8ede62",
+            "sourceColumn": "B_mes",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_d60d67e3-b676-47e6-9e1f-bf78e38a6fc9"
+                },
+                "isDefault": true,
+                "relationship": "e5f81574-32e8-41bd-ba41-98480be4255c"
+              }
+            ]
+          },
+          {
+            "name": "fec_ini_cdto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "e757f414-3c0d-44cc-a55c-9f8d7a07c061",
+            "sourceColumn": "fec_ini_cdto",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_4ef28cee-caf4-498c-8a24-ae942a7f2f9a"
+                },
+                "isDefault": true,
+                "relationship": "46b88fa0-b5d8-4fdc-b7ef-6338901a666a"
+              }
+            ]
+          },
+          {
+            "name": "id_sucursal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ee9471cb-ab08-4a54-8268-8495c3b5302a",
+            "sourceColumn": "id_sucursal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "B_adeudo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c9123f20-bf9d-45f2-8f90-482a301a2115",
+            "sourceColumn": "B_adeudo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ventas_tot",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "ac42b009-49f4-4133-b7dc-061517c03cdf",
+            "sourceColumn": "ventas_tot",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_clientes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2ec832f5-c0f4-4c53-9b39-2c14dfce2c5f",
+            "sourceColumn": "no_clientes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "adeudo_actual",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.0;(\\$#,0.0);\\$#,0.0",
+            "lineageTag": "5214e933-ba6b-41ef-b01c-ea2c768751e1",
+            "sourceColumn": "adeudo_actual",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "pagos_tot",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "f3e9cbe0-48e3-4224-b81f-0191e9408b70",
+            "sourceColumn": "pagos_tot",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_cdtos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9397b453-8fc4-4bbe-a2fe-c06c88510a4d",
+            "sourceColumn": "no_cdtos",
+            "summarizeBy": "sum"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "J1",
+            "levels": [
+              {
+                "name": "B_mes",
+                "column": "B_mes",
+                "lineageTag": "58d42b85-4fee-45f3-932a-f8bf10cbfb6e",
+                "ordinal": 0
+              },
+              {
+                "name": "fec_ini_cdto",
+                "column": "fec_ini_cdto",
+                "lineageTag": "e8b4f4e3-8302-4d27-a897-9c680aa9b889",
+                "ordinal": 1
+              }
+            ],
+            "lineageTag": "3789e338-2fb9-45c7-8a88-1a92458bb50f"
+          }
+        ],
+        "lineageTag": "92f984c0-4a3d-4a30-a112-1bef06914d4d",
+        "partitions": [
+          {
+            "name": "proyecto1",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"D:\\Miguel\\PowerBi\\1. Proyecto1\\Data\\proyecto1.csv\"),[Delimiter=\",\", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"\", Int64.Type}, {\"B_mes\", type date}, {\"fec_ini_cdto\", type date}, {\"id_sucursal\", Int64.Type}, {\"B_adeudo\", type text}, {\"ventas_tot\", Int64.Type}, {\"no_clientes\", Int64.Type}, {\"adeudo_actual\", type number}, {\"pagos_tot\", type number}, {\"no_cdtos\", Int64.Type}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"\"}),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Columnas quitadas\",{{\"B_adeudo\", type text}})",
+                "in",
+                "    #\"Tipo cambiado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_633e4707-fe04-483b-ad8c-49e779d8bef9",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3356e7dd-327a-46aa-91a4-ebcdabf253bc",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d37fcba8-1c05-4bcb-b437-ef946ecadd28",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "164e19a1-9ef5-4001-8a9c-86e9694ccd31",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "8d1cf36c-6bc2-450c-95c7-e80376f4bf76",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "cd856308-53fb-44fa-bb25-b41ed1369b28",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "2d320045-a5a4-4748-94cd-0b08ccf90eb6",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "a55a65b2-1733-47d8-af90-a0bc5614b106",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "bf40ba3c-6e9d-4d1b-9d2e-ab734507399e",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "c8bea0ca-fa23-4df4-9a33-f2cadd8b95bb",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "583b92e4-0117-4ca0-8f32-2fa830df0e43",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "2f473e2e-8685-436d-ad34-0dd546a604d0",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b139d530-04c4-49a8-98f9-fbcb018dc4bf"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "810b3236-904c-4bcd-923d-3af4bc03f3d2",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_633e4707-fe04-483b-ad8c-49e779d8bef9",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_d60d67e3-b676-47e6-9e1f-bf78e38a6fc9",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "b3337968-8391-42d7-9c44-a632d847539c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "6f10b4b9-6c28-4190-a9a6-bf0ee85c4201",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "20c4a979-430c-43b3-a724-f5e2bc45cab0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "c3ad3e45-c33c-4b29-8fa3-e4068643964b",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "45afd2cb-6134-483e-85f1-3d1ed0dcd70e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "05d7ea77-3de6-462a-9d39-74f6727dcc12",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3bfe3e66-4558-483c-ab0f-4771a7088079",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "d5a46d68-1461-4657-a2fb-3f85d5ba8802",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "13c8954d-fe61-4519-a9c5-9f2fff185f43",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "7b975dbc-1368-4ea2-9e96-3b7f9e318576",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "f7746342-e731-4bc8-92a1-7755361e70df",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "9bb644d5-f718-40f3-9653-e67801b03d9b"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "74092685-829e-4dc4-b89a-639191cf5620",
+        "partitions": [
+          {
+            "name": "LocalDateTable_d60d67e3-b676-47e6-9e1f-bf78e38a6fc9",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('proyecto1'[B_mes])), 1, 1), Date(Year(MAX('proyecto1'[B_mes])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_4ef28cee-caf4-498c-8a24-ae942a7f2f9a",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8f60772b-80b2-4205-b3b3-99fe81624f57",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5ca20aef-29d6-430b-aa0a-6c384d2830a6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "dcb81065-ff26-4ca8-a63b-bad5da40ab71",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "323c6e1c-e256-48d6-ba84-03892775f56a",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e9040d0f-3215-48ea-8f3b-c4f489a7617f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "aa3743b5-12e8-491c-b5a3-6e6b9125e37a",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "03889e19-4b56-4983-beb6-ccc1adc9be46",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "471661f3-f228-4546-abfd-155e450d5cc3",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "7c0b96e9-f009-4f86-b996-7839771a38a8",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "c335652b-b341-4356-8df5-43e41748ce12",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "39de326e-f5b2-4a7b-9c6a-08e30c68e9d3",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "1cdaea17-7f43-4fab-8c9b-0c9e41b18013"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "e78b7d84-de8a-4b14-a07c-e589bb1ba6f8",
+        "partitions": [
+          {
+            "name": "LocalDateTable_4ef28cee-caf4-498c-8a24-ae942a7f2f9a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('proyecto1'[fec_ini_cdto])), 1, 1), Date(Year(MAX('proyecto1'[fec_ini_cdto])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Catalogo_sucursal",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_sucursal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dd2e83b3-b76a-41d2-88ed-eb9962cab554",
+            "sourceColumn": "id_sucursal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "suc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5dc7536b-8d92-450d-9afd-356586dab006",
+            "sourceColumn": "suc",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "38df8009-4c95-479a-8cd9-ed29eb60ba8d",
+        "partitions": [
+          {
+            "name": "Catalogo_sucursal",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"D:\\Miguel\\PowerBi\\1. Proyecto1\\Data\\Catalogo_sucursal.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id_sucursal\", Int64.Type}, {\"suc\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "ae165315-69d9-4fcd-a148-2ee43a76f766",
+        "measures": [
+          {
+            "name": "Porc_Clientes_Adeudo",
+            "expression": [
+              "DIVIDE(",
+              "                            CALCULATE(",
+              "                                SUM(proyecto1[no_clientes]),FILTER(proyecto1,proyecto1[B_adeudo] =\"Con adeudo\")),SUM(proyecto1[no_clientes]),0)"
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "6f3f37c5-9289-4351-99e7-77acb6c0d169"
+          },
+          {
+            "name": "Porc_Adeudo",
+            "expression": [
+              "VAR SUM_ADEUDO = SUM(proyecto1[adeudo_actual])",
+              "                VAR SUM_VENTA_TOTAL = SUM(proyecto1[ventas_tot])",
+              "                RETURN DIVIDE(SUM_ADEUDO,SUM_VENTA_TOTAL,0)"
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "e2852c93-5cb8-47b0-b7d4-a62468febde2"
+          },
+          {
+            "name": "Porc_Pagos",
+            "expression": [
+              "VAR SUM_PAGOS = SUM(proyecto1[pagos_tot])",
+              "                VAR SUM_VENTA = SUM(proyecto1[ventas_tot]) RETURN DIVIDE(SUM_PAGOS,SUM_VENTA,0)"
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "13fe8094-7c06-48e3-b52e-7609af69c25c"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna1\", type text}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"Columna1\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
