@@ -10,4 +10,4 @@ verán afectadas por los slicer.
 5. Gráfica de colocación (venta) por sucursal (no se verá afectada por slicer de sucursal).
 6. Gráfica con porcentaje de adeudo. 
 
-![Alt text](/Proyecto1.png)
+![Alt text](./Proyecto1.png)
