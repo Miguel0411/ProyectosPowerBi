@@ -1,4 +1,4 @@
-#Proyecto Informe Power Bi
+Proyecto Informe Power Bi
 1. Vista a una pagina.
 2. Se mostrará la colocación(venta mensual),agregando jerarquías
 por fechas(no se verá afectada por el slicer de fecha).
