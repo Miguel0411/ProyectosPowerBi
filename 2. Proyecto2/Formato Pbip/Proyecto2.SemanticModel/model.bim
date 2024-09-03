@@ -1,0 +1,1620 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.901.0 (24.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"transporte_JUL2018\",\"Medidas\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "transporte_JUL2018": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "transporte JUL2018": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "transporte_JUL2018": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.Top3_precio_promedio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Top3 Precio Promedio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Top3 precio promedio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Top": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Año"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Fecha"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Fecha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Fecha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Fecha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha día": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Fecha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Fecha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.genérico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Genérico"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "genérico": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.nombre_ciudad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Nombre ciudad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nombre ciudad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.precio_promedio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transporte_JUL2018",
+                    "ConceptualProperty": "Precio promedio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "precio promedio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "transporte_JUL2018.promedio_de_precio_promedio_por_genérico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Promedio de Precio promedio por Genérico"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "promedio de precio promedio por genérico": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "transporte_JUL2018_fecha_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha"
+                      }
+                    },
+                    "ID": "fechas_have_jerarquía_de_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_año_has_transporte_JUL2018_fecha_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "ID": "años_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_años",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_me_has_transporte_JUL2018_fecha_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "ID": "días_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "días_are_in_me",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_fecha_variación_jerarquía_de_fecha_trimestre_has_transporte_JUL2018_fecha_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "me_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_Top3_precio_promedio": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.Top3_precio_promedio"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_Top3_precio_promedio",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.Top3_precio_promedio": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.Top3_precio_promedio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.año"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.año": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.fecha"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.fecha": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_genérico": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.genérico"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_genéricos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.genérico": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.genérico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.me"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.me": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_nombre_ciudad": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.nombre_ciudad"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_nombre_ciudad",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.nombre_ciudad": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.nombre_ciudad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_has_promedio_de_precio_promedio_por_genérico": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.promedio_de_precio_promedio_por_genérico"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_promedio_de_precio_promedio_por_genérico",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.promedio_de_precio_promedio_por_genérico": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.promedio_de_precio_promedio_por_genérico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "transporte_JUL2018_is_expensive": {
+                "Binding": {
+                  "ConceptualEntity": "transporte_JUL2018"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "transporte_JUL2018.precio_promedio"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "precio_promedio_indicates_how_expensive_transporte_JUL2018_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "transporte_JUL2018.precio_promedio"
+                      },
+                      "Subject": {
+                        "Role": "transporte_JUL2018"
+                      }
+                    },
+                    "ID": "transporte_JUL2018_have_precio_promedios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "transporte_JUL2018": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018"
+                    }
+                  },
+                  "transporte_JUL2018.precio_promedio": {
+                    "Target": {
+                      "Entity": "transporte_JUL2018.precio_promedio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "059a4b7f-9afd-4be4-88a1-8a1252a242e2",
+        "fromColumn": "Fecha",
+        "fromTable": "transporte_JUL2018",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_3156fc83-92b5-4ee7-a10e-b1b42706bb14"
+      }
+    ],
+    "sourceQueryCulture": "es-PE",
+    "tables": [
+      {
+        "name": "DateTableTemplate_fe94a4e6-b4d9-40c5-9073-e5eab912f11e",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "fc7b6464-8081-4268-99ab-067c695728ad",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "1508f0d8-b665-417d-83ef-b55b40b41b78",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "08ddc06c-ba0c-4065-8e98-9a8d8a5f19a3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b7e09fe0-fd11-4576-b76c-dc8007d0deec",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "67109aad-8df7-49d4-b7cf-b7a4bb910b69",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "b4d7c67e-bf46-4bae-a1f2-6564429aa50e",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "31397e58-9aa6-41bd-830c-4680d7192b19",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "dcbc5159-688c-4daf-8530-760c13ea4482",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "cf820fb1-f8f4-4f68-9234-8d827d1f5b17",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "487bf20e-5e4e-447b-912c-11f0ae6143de",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "801e99ce-8306-47e6-944c-dacb418cd225",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e713c393-785e-40c3-a531-a1fcd890d565"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "f2eb443f-9b0b-48c7-99dd-0c32c4193d65",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_fe94a4e6-b4d9-40c5-9073-e5eab912f11e",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "transporte_JUL2018",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5854de4d-0170-418b-8e76-607a97387b2e",
+            "sourceColumn": "Año",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "54a5cd94-0e6d-4945-97b7-4b7a6f5619b6",
+            "sourceColumn": "Mes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fecha",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "mmmm \"de\" yyyy",
+            "lineageTag": "ec45055a-8f67-4d74-8bc2-9c41a65a7ff2",
+            "sourceColumn": "Fecha",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_3156fc83-92b5-4ee7-a10e-b1b42706bb14"
+                },
+                "isDefault": true,
+                "relationship": "059a4b7f-9afd-4be4-88a1-8a1252a242e2"
+              }
+            ]
+          },
+          {
+            "name": "Nombre ciudad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "14e5883b-72f5-4065-bd7b-f4c6f971fcdb",
+            "sourceColumn": "Nombre ciudad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Genérico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4fcb3ef6-bd95-4caf-9907-0e1e40ce3fc8",
+            "sourceColumn": "Genérico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Precio promedio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "d7fbec99-455f-4a3c-8a4e-feec8f60cd5e",
+            "sourceColumn": "Precio promedio",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "6e6ed2b0-495c-4ada-8f8e-3694ca4dc4ae",
+        "partitions": [
+          {
+            "name": "transporte_JUL2018",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"D:\\Miguel\\PowerBi\\2. Proyecto2\\Data\\transporte_JUL2018.csv\"),[Delimiter=\",\", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Año\", Int64.Type}, {\"Mes\", Int64.Type}, {\"Fecha\", type date}, {\"Nombre ciudad\", type text}, {\"Genérico\", type text}, {\"Precio promedio\", type number}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_3156fc83-92b5-4ee7-a10e-b1b42706bb14",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "157d680c-d94c-494a-80b1-729569547f71",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "0b8638bf-028f-4a83-aa64-cb448459ca9b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "81f27762-800a-49da-95fd-f6aad222b0a9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b1ec8fd3-dfcd-4788-882b-b70960aff658",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "b23b8bfd-3faf-4214-8bea-4802be7c4610",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "db953f60-4dd8-42a0-aec0-828d12a9c938",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "d71be9da-952b-4f48-aa7f-9e14bdf9ad60",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "27ac6e88-c95a-4a28-b568-b14f401a0001",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "3c328d86-7099-4e44-ba8d-5559280b8f32",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "6751b326-4011-44be-9a1b-1f80fab88871",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "aee0b3d1-f62b-414f-92da-2e93feb9515f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "90097b0f-ad97-48de-910f-a18c61fa2cea"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "3b443ee0-97cc-46de-a737-1673d62c820c",
+        "partitions": [
+          {
+            "name": "LocalDateTable_3156fc83-92b5-4ee7-a10e-b1b42706bb14",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('transporte_JUL2018'[Fecha])), 1, 1), Date(Year(MAX('transporte_JUL2018'[Fecha])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "70512aeb-8475-406a-b976-1bcedea084af",
+        "measures": [
+          {
+            "name": "Promedio de Precio promedio por Genérico",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "\tKEEPFILTERS(VALUES('transporte_JUL2018'[Genérico])),",
+              "\tCALCULATE(SUM('transporte_JUL2018'[Precio promedio]))",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "AveragePerCategory",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "0ca405e4-c540-443e-b2e0-4ef35fd7a38b"
+          },
+          {
+            "name": "Top3 Precio Promedio",
+            "expression": "RANKX(ALL(transporte_JUL2018[Nombre ciudad]),CALCULATE(AVERAGE(transporte_JUL2018[Precio promedio])),,DESC,Dense) ",
+            "formatString": "0",
+            "lineageTag": "484f34eb-0343-4c1a-b587-7ba4f2ce02ac"
+          },
+          {
+            "name": "Bottom",
+            "expression": "RANKX(ALL(transporte_JUL2018[Nombre ciudad]),CALCULATE(AVERAGE(transporte_JUL2018[Precio promedio])),,ASC,Dense)",
+            "formatString": "0",
+            "lineageTag": "37389d17-fbf7-4491-98ec-34ac88be723f"
+          },
+          {
+            "name": "TOPBOTTOM",
+            "expression": [
+              "",
+              "IF([Top3 Precio Promedio]<=3 || [Bottom]<=3,1,0)"
+            ],
+            "formatString": "0",
+            "lineageTag": "3d45ba96-b818-4f6d-a42e-f9e997add6df"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna1\", type text}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"Columna1\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
