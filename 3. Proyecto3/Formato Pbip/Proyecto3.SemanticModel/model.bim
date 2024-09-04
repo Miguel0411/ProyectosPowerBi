@@ -1,0 +1,2032 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.901.0 (24.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"denue_inegi_61_\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "denue_inegi_61": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "denue inegi 61": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "denue_inegi_61_": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.cod_postal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "cod_postal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cod postal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cod_postal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.entidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "entidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "entidad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "fecha_alta"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha alta": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha_alta": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fecha_alta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fecha_alta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha alta año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fecha_alta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha alta día": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fecha_alta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha alta me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "fecha_alta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha alta trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.latitud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "latitud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitud": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.localidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "localidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "localidad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.longitud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "longitud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitud": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "municipio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.nombre_act": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "nombre_act"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nombre act": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nombre_act": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "nombre performance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nombre entertainment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nombre turn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nombre piece": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nombre item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nombre achievement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "nombre accomplishment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "nombre action": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "nombre deed": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "nombre doing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "Tipo de Escuela": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.per_ocu": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "per_ocu"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "per ocu": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "per_ocu": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.tipo_asent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "tipo_asent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo asent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_asent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "denue_inegi_61.tipo_vial": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "denue_inegi_61_",
+                    "ConceptualProperty": "tipo_vial"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo vial": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_vial": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "tipo ampoule": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tipo vessel": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tipo container": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tipo flask": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tipo bottle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "tipo phial": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "denue_inegi_61_fecha_alta_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta"
+                      }
+                    },
+                    "ID": "fecha_alta_have_jerarquía_de_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_año_has_denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "ID": "años_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_años",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_me_has_denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "ID": "días_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "días_are_in_me",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_trimestre_has_denue_inegi_61_fecha_alta_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "me_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_cod_postal": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.cod_postal"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_cod_postal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.cod_postal": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.cod_postal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_entidad": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.entidad"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_entidads",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.entidad": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.entidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_fecha_alta": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.fecha_alta"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_fecha_alta",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.fecha_alta": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.fecha_alta"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_id": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.id"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ids_are_names_IDs_of_denue_inegi_61",
+                    "Name": {
+                      "Name": {
+                        "Role": "denue_inegi_61.id"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.id": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_latitud": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.latitud"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_latituds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.latitud": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.latitud"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_localidad": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.localidad"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_localidads",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.localidad": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.localidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_longitud": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.longitud"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_longituds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.longitud": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.longitud"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.municipio"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_municipios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.municipio": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_nombre_act": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.nombre_act"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_nombre_acts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.nombre_act": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.nombre_act"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_per_ocu": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.per_ocu"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_per_ocu",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.per_ocu": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.per_ocu"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_tipo_asent": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.tipo_asent"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_tipo_asents",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.tipo_asent": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.tipo_asent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "denue_inegi_61_has_tipo_vial": {
+                "Binding": {
+                  "ConceptualEntity": "denue_inegi_61_"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "denue_inegi_61.tipo_vial"
+                      },
+                      "Subject": {
+                        "Role": "denue_inegi_61"
+                      }
+                    },
+                    "ID": "denue_inegi_61_have_tipo_vials",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "denue_inegi_61": {
+                    "Target": {
+                      "Entity": "denue_inegi_61"
+                    }
+                  },
+                  "denue_inegi_61.tipo_vial": {
+                    "Target": {
+                      "Entity": "denue_inegi_61.tipo_vial"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "4fe2f9c6-7683-4726-9548-180af8fd1d72",
+        "fromColumn": "fecha_alta",
+        "fromTable": "denue_inegi_61_",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_1f4b915c-54ad-43d0-8f1b-6dec8fca648d"
+      }
+    ],
+    "sourceQueryCulture": "es-PE",
+    "tables": [
+      {
+        "name": "DateTableTemplate_fe94a4e6-b4d9-40c5-9073-e5eab912f11e",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "fc7b6464-8081-4268-99ab-067c695728ad",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "1508f0d8-b665-417d-83ef-b55b40b41b78",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "08ddc06c-ba0c-4065-8e98-9a8d8a5f19a3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b7e09fe0-fd11-4576-b76c-dc8007d0deec",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "67109aad-8df7-49d4-b7cf-b7a4bb910b69",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "b4d7c67e-bf46-4bae-a1f2-6564429aa50e",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "31397e58-9aa6-41bd-830c-4680d7192b19",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "dcbc5159-688c-4daf-8530-760c13ea4482",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "cf820fb1-f8f4-4f68-9234-8d827d1f5b17",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "487bf20e-5e4e-447b-912c-11f0ae6143de",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "801e99ce-8306-47e6-944c-dacb418cd225",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e713c393-785e-40c3-a531-a1fcd890d565"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "f2eb443f-9b0b-48c7-99dd-0c32c4193d65",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_fe94a4e6-b4d9-40c5-9073-e5eab912f11e",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "denue_inegi_61_",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9356cd93-aebe-4988-b896-5171d5adb652",
+            "sourceColumn": "id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nombre_act",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2fddf403-ce4b-4459-af66-4ddf152e8009",
+            "sourceColumn": "nombre_act",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "per_ocu",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dfeaba16-4ae8-4159-afdf-e7488162d301",
+            "sourceColumn": "per_ocu",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_vial",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c53c607-7edf-428f-bd16-2b8533bb5811",
+            "sourceColumn": "tipo_vial",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_asent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f9c95628-7dc5-4208-84ff-a0ad081727f0",
+            "sourceColumn": "tipo_asent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cod_postal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f4015597-5489-4d3c-a81f-b165bede8ee9",
+            "sourceColumn": "cod_postal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "entidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6166f9b3-50e8-4b45-a0ef-b9823933ac77",
+            "sourceColumn": "entidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4ce3d949-892b-465d-bba8-9c7542dd87c5",
+            "sourceColumn": "municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "localidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f11926cd-eb11-4fee-bdcc-8863da36ceb3",
+            "sourceColumn": "localidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitud",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "0b51628f-e107-40bb-81d4-f416f1b24dba",
+            "sourceColumn": "latitud",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitud",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "7dfa00cf-46cd-4c81-b2f9-80198cb66934",
+            "sourceColumn": "longitud",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fecha_alta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "7405b2b7-4f88-4fcf-8464-495f6598237a",
+            "sourceColumn": "fecha_alta",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_1f4b915c-54ad-43d0-8f1b-6dec8fca648d"
+                },
+                "isDefault": true,
+                "relationship": "4fe2f9c6-7683-4726-9548-180af8fd1d72"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "2e3b8507-2d9e-4f91-b24b-daec2416d0a1",
+        "partitions": [
+          {
+            "name": "denue_inegi_61_",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"D:\\Miguel\\PowerBi\\3. Proyecto3\\Data\\denue_inegi_61_.csv\"),[Delimiter=\",\", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"nombre_act\", type text}, {\"per_ocu\", type text}, {\"tipo_vial\", type text}, {\"tipo_asent\", type text}, {\"cod_postal\", Int64.Type}, {\"entidad\", type text}, {\"municipio\", type text}, {\"localidad\", type text}, {\"latitud\", type number}, {\"longitud\", type number}, {\"fecha_alta\", type date}}),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Tipo cambiado\", each true)",
+                "in",
+                "    #\"Filas filtradas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_1f4b915c-54ad-43d0-8f1b-6dec8fca648d",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "ae07c489-72cc-4471-860a-d883dd997b0f",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "e766d06a-6ff9-4846-a009-f4b11a5c066d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "df72bcc0-398f-484e-a72a-aa0b74015b81",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "ad14b51a-cae6-4e67-adc6-6245f51ca8f8",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "b190636a-4dad-4a07-bb56-c58cf717ea8d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "2a6f0423-5da0-4471-978f-f3e6e5eb4737",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "86968d05-3e91-43a3-bc1b-b7d66f6b141f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "528a64ca-17cf-451b-ab73-bf886053ce3d",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "28d501dd-d412-43e1-9279-5085551d8177",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "0caa8052-6e7f-4cfe-a4a6-9bdf28dc2834",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "fe6094a7-2787-4563-a88d-b6f0e4d315ef",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b7c38cd9-1be9-42e6-9956-2732292244d1"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "aec298c6-ba01-4c0b-b57d-9472a7ad4c92",
+        "partitions": [
+          {
+            "name": "LocalDateTable_1f4b915c-54ad-43d0-8f1b-6dec8fca648d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('denue_inegi_61_'[fecha_alta])), 1, 1), Date(Year(MAX('denue_inegi_61_'[fecha_alta])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
