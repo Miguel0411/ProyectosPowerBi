@@ -1,7 +1,5 @@
 # 🚀 Pantallas Digitales en Lima - Dashboard Interactivo 🌆💡
 
-![Alt text](./Dashboard.png)
-
 Este proyecto presenta un **dashboard interactivo en Power BI** diseñado para analizar la distribución de medios digitales (pantallas, torres y espectaculares) en los distritos de Lima. Con una interfaz intuitiva, este dashboard permite a las agencias publicitarias obtener insights clave para **optimizar sus estrategias** basadas en la cobertura y orientación de los elementos publicitarios en la ciudad.
 
 ## 🔍 ¿Qué incluye este dashboard?
@@ -24,3 +22,8 @@ Este proyecto está en constante mejora. **Cualquier comentario o sugerencia ser
 
 ## 📈 Hashtags
 `#PowerBI #DataAnalytics #MediosDigitales #Publicidad #BusinessIntelligence #Geoplanning`
+
+## Dashboard:
+![Alt text](./Dashboard.png)
+## Modelo:
+![Alt text](./Modelo.png)
